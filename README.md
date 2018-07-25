@@ -7,7 +7,7 @@ This README describes the sequence analysis for the S9-3-37 antibody study
 * doc/Epitopes.tsv: Epitope information for S9-3-37 and FI6v3
 
 ### SCRIPTS
-Extract amino acid identity for each strain at residues of interset
+1. Extract amino acid identity for each strain at residues of interset
 ```
 python script/extract_motif_from_aln.py
 ```
