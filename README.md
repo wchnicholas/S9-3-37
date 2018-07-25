@@ -48,6 +48,20 @@ bash script/seqlogo_resi.sh
 
 ## ANALYSIS FOR ANTIBODY SEQUENCES
 ### INPUT FILE
-* 
+* data/Andrews\_STM\_StemAbList.tsv: From 
+* data/Andrews\_SciImmun.tsv: From 
+* data/Donor1.tsv: From 
+* data/Donor2.tsv: From
+* data/Donor3.tsv: From
+* data/HIV\_bNAber.fasta: From
+* data/HIV\_bNAber.tsv: From
+* data/OAS\_info.tsv: From
+* data/Pappas\_StemAbList.tsv: From
+* data/Subj1.tsv: From
+* data/Subj16.tsv: From
+* data/Subj31.tsv: From
+* data/Subj36.tsv: From
+* data/Subj54.tsv: From
+* data/Subj56.tsv: From
 
-
+### DATA PROCESSING
