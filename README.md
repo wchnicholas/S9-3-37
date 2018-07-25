@@ -71,7 +71,15 @@ bash script/bulk_download.sh
   * Sample IDs are described in data/OAS\_info.tsv
 
 ### DATA PROCESSING
-
-2. To summarize ##
+To construct summary tables for D3-9 gene classification
+```
+python NULL
+python NULL
+python NULL
+```
+  * Input file:
+    *
+  * Output file:
+    *
 
 ### PLOTTING
