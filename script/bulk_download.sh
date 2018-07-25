@@ -1,0 +1,13 @@
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Galson_2015/Galson_2015_Visit-4_Subject-1018_IgG_Subject-1018_Visit-4_treatment-MenACWY-conjugate_Memory-B-cells_IgG_iglblastn.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Galson_2015/Galson_2015_Visit-4_Subject-1014_IgG_Subject-1014_Visit-4_treatment-MenACWY-polysaccharide_Memory-B-cells_IgG_iglblastn.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Galson_2015/Galson_2015_Visit-4_Subject-1020_IgG_Subject-1020_Visit-4_treatment-MenACWY-polysaccharide_Memory-B-cells_IgG_iglblastn.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Galson_2015/Galson_2015_Visit-4_Subject-1001_IgG_Subject-1001_Visit-4_treatment-MenACWY-conjugate_Memory-B-cells_IgG_iglblastn.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2014_IGHG_2014_1st_run_heavy_2-fq-gz_iglblastn_IGHG.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2014_IGHG_2014_2nd_run_heavy_2-fq-gz_iglblastn_IGHG.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2015_IGHG_2015_2nd_run_heavy_2-fq-gz_iglblastn_IGHG.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2012_IGHG_2012_3rd_run_heavy_2-fq-gz_iglblastn_IGHG.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2012_IGHG_2012_2nd_run_heavy_1-fq-gz_iglblastn_IGHG.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2012_IGHG_2012_1st_run_heavy_1-fq-gz_iglblastn_IGHG.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2015_IGHG_2015_3rd_run_heavy_2-fq-gz_iglblastn_IGHG.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2015_IGHG_2015_1st_run_heavy_1-fq-gz_iglblastn_IGHG.json.gz
+wget http://opig.stats.ox.ac.uk/webapps/ngsdb/json/Huang_2016/Huang_2016_heavy_2014_IGHG_2014_3rd_run_heavy_2-fq-gz_iglblastn_IGHG.json.gz
