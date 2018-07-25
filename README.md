@@ -64,7 +64,7 @@ bash script/seqlogo_resi.sh
 * data/HIV\_bNAber.tsv: Information for germline usage of HIV bnAbs. Output from [IgBlast](https://www.ncbi.nlm.nih.gov/igblast/index.cgi)
 
 ### ADDITIONAL DATASETS
-To download the next-generation sequencing data from [Observed Antibody Space](http://antibodymap.org./oas). Data from two stidues [Huang et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27851912) and [Galson et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25976772) were downloaded. Downloaded data should be placed in json/ folder 
+To download the next-generation sequencing data from [Observed Antibody Space](http://antibodymap.org./oas). Data from two studies [Huang et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27851912) and [Galson et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25976772) were downloaded. Downloaded data should be placed in json/ folder as .gz files. 
 ```
 bash script/bulk_download.sh
 mv *.gz json/
