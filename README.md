@@ -47,39 +47,58 @@ bash script/seqlogo_resi.sh
 
 ## PART II: ANALYSIS FOR ANTIBODY SEQUENCES
 ### INPUT FILES
-* data/Andrews\_STM\_StemAbList.tsv: From Table S3 and Table S4 in [Andrews et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/26631631) 
-* data/Andrews\_SciImmun.tsv: From Table S7 in [Andrews et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/28783708)
-* data/Donor1.tsv: From Supplementary Data Set 1 in [DeKosky et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25501908)
-* data/Donor2.tsv: From Supplementary Data Set 1 in [DeKosky et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25501908)
-* data/Donor3.tsv: From Supplementary Data Set 1 in [DeKosky et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25501908)
-* data/Pappas\_StemAbList.tsv: From Figure S1 of [Pappas et al. 2014](https://www.ncbi.nlm.nih.gov/pubmed/25296253)
 * data/Subj1.tsv: From Table S3 in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
 * data/Subj16.tsv: From Table S3 in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
 * data/Subj31.tsv: From Table S3 in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
 * data/Subj36.tsv: From Table S3 in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
 * data/Subj54.tsv: From Table S3 in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
 * data/Subj56.tsv: From Table S3 in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
+* data/Andrews\_STM\_StemAbList.tsv: From Table S3 and Table S4 in [Andrews et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/26631631) 
+* data/Andrews\_SciImmun.tsv: From Table S7 in [Andrews et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/28783708)
+* data/Pappas\_StemAbList.tsv: From Figure S1 of [Pappas et al. 2014](https://www.ncbi.nlm.nih.gov/pubmed/25296253)
 * result/Dgene\_McCarthy\_Patient\_summary.tsv: From Figure S4 in [McCarthy et al. 2018](https://www.ncbi.nlm.nih.gov/pubmed/29343437)
+* data/Donor1.tsv: From Supplementary Data Set 1 in [DeKosky et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25501908)
+* data/Donor2.tsv: From Supplementary Data Set 1 in [DeKosky et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25501908)
+* data/Donor3.tsv: From Supplementary Data Set 1 in [DeKosky et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25501908)
 * data/HIV\_bNAber.fasta: Nucleotide sequences for HIV bnAbs. Downloaded from [bNAber database](https://www.ncbi.nlm.nih.gov/pubmed/24214957)
 * data/HIV\_bNAber.tsv: Information for germline usage of HIV bnAbs. Output from [IgBlast](https://www.ncbi.nlm.nih.gov/igblast/index.cgi)
 
 ### ADDITIONAL DATASETS
-To download the next-generation sequencing data from [Observed Antibody Space](http://antibodymap.org./oas). Data from two stidues [Huang et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27851912) and [Galson et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25976772) were downloaded. 
+To download the next-generation sequencing data from [Observed Antibody Space](http://antibodymap.org./oas). Data from two stidues [Huang et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27851912) and [Galson et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25976772) were downloaded. Downloaded data should be placed in json/ folder 
 ```
 bash script/bulk_download.sh
+mv *.gz json/
 ```
   * Sample IDs are described in data/OAS\_info.tsv
 
 ### DATA PROCESSING
-To construct summary tables for D3-9 gene classification
+1. To construct summary tables for D3-9 gene classification
 ```
-python NULL
-python NULL
-python NULL
+python script/Parse_Patient_Joyce.py
+python script/Parse_Patient_Andrews_STM.py
+python script/Parse_Patient_Andrews_SciImmun.py
+python script/Parse_Patient_Pappas.py
+python script/Parse_Donor_DeKosky.py
+python script/Parse_HIVbnAb.py
+python script/Parse_OAS.py
 ```
   * Input file:
-    *
+    * data/Subj\*.tsv
+    * data/Andrews\_STM\_StemAbList.tsv
+    * data/data/Andrews\_SciImmun.tsv
+    * data/Pappas\_StemAbList.tsv
+    * data/Donor\*.tsv
+    * data/HIV\_bNAber.tsv
+    * data/OAS\_info.tsv
   * Output file:
-    *
+    * result/HD39\_\*.tsv
+    * result/Dgene\_\*.tsv
+
+2. To format the data for plotting
+```
+python script/Format_OAS_plot.py
+```
+  * Input file: result/Dgene\_\*.tsv
+  * Output file: result/Compare\_OAS.tsv
 
 ### PLOTTING
