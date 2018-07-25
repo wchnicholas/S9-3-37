@@ -1,6 +1,6 @@
 This README describes the sequence analysis for the S9-3-37 antibody study. The sequence analysis is divided into two parts. Part I describes the analysis for influenza hemagglutinin (HA) natural variants. Part II describes the analysis for antibody sequences. 
 ## PART I: ANALYSIS FOR HA NATURAL VARIANTS
-### INPUT FILE
+### INPUT FILES
 * Fasta/HAdiffSubtypes.aln: HA protein sequences from representative strains of each subtype
 * Fasta/Natural\_All\_Subtypes.aln: HA protein sequences retrieved from [GISAID](https://www.gisaid.org/)
 * doc/Epitopes.tsv: Epitope information for S9-3-37 and FI6v3
@@ -46,7 +46,7 @@ bash script/seqlogo_resi.sh
     * graph/Resi50\_H\*.png
 
 ## PART II: ANALYSIS FOR ANTIBODY SEQUENCES
-### INPUT FILE
+### INPUT FILES
 * data/Andrews\_STM\_StemAbList.tsv: From Table S3 and Table S4 in [Andrews et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/26631631) 
 * data/Andrews\_SciImmun.tsv: From Table S7 in [Andrews et al. 2017](https://www.ncbi.nlm.nih.gov/pubmed/28783708)
 * data/Donor1.tsv: From Supplementary Data Set 1 in [DeKosky et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25501908)
@@ -63,7 +63,7 @@ bash script/seqlogo_resi.sh
 * data/HIV\_bNAber.fasta: Nucleotide sequences for HIV bnAbs. Downloaded from [bNAber database](https://www.ncbi.nlm.nih.gov/pubmed/24214957)
 * data/HIV\_bNAber.tsv: Information for germline usage of HIV bnAbs. Output from [IgBlast](https://www.ncbi.nlm.nih.gov/igblast/index.cgi)
 
-### ADDITIONAL DATASET
+### ADDITIONAL DATASETS
 To download the next-generation sequencing data from [Observed Antibody Space](http://antibodymap.org./oas). Data from two stidues [Huang et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27851912) and [Galson et al. 2015](https://www.ncbi.nlm.nih.gov/pubmed/25976772) were downloaded. 
 ```
 bash script/bulk_download.sh
