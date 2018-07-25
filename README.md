@@ -6,7 +6,11 @@ This README describes the sequence analysis for the S9-3-37 antibody study
 * Fasta/Natural\_All\_Subtypes.aln: HA protein sequences retrieved from [GISAID](https://www.gisaid.org/)
 * doc/Epitopes.tsv: Epitope information for S9-3-37 and FI6v3
 
-* script/extract\_motif\_from\_aln.py: extract amino acid identity for each strain at residues of interset
+### SCRIPTS
+* Extract amino acid identity for each strain at residues of interset
+```
+script/extract\_motif\_from\_aln.py
+```
   * Input file:
     * Fasta/HAdiffSubtypes.aln
     * doc/Epitopes.tsv
