@@ -90,6 +90,7 @@ python script/Parse_OAS.py
     * data/Donor\*.tsv
     * data/HIV\_bNAber.tsv
     * data/OAS\_info.tsv
+    * json/\*.gz
   * Output file:
     * result/HD39\_\*.tsv
     * result/Dgene\_\*.tsv
