@@ -123,7 +123,7 @@ Rscript script/Plot_Dgene_usage_HIV.R
   * Input file: result/Dgene\_\*.tsv
   * Output file: graph/HD39\_\*.png
 
-3. To plot the frequency of prevalence of 31.b.09-like (ILTG motif) and S9-3-37-like (LXYFWL motif) CDR H3 in different samples
+3. To plot the frequency of prevalence of 31.b.09-like (ILTG motif) and S9-3-37-like (LXYFXWL motif) CDR H3 in different samples
 ```
 Rscript script/Plot_Dgene_usage_OAS.R
 ```
