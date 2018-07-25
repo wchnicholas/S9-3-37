@@ -30,14 +30,14 @@ python script/extract_resi_from_aln.py
 ### PLOTTING
 1. Plot sequence entropy of S9-3-37/FI6v3 epitope residues
 ```
-Rscript plot_entropy.R
+Rscript script/plot_entropy.R
 ```
   * Input file: result/Epitope\_seq\_entropy.tsv
   * Output file: graph/entropy\_distribution.png
 
 2. Plot sequence logos for residues of interset
 ```
-script/seqlogo_resi.sh
+bash script/seqlogo_resi.sh
 ```
   * Input file: 
     * result/Resi38.tsv
