@@ -103,3 +103,29 @@ python script/Format_OAS_plot.py
   * Output file: result/Compare\_OAS.tsv
 
 ### PLOTTING
+1. To plot the D3-9 gene usage of the six subjects in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
+```
+Rscript script/Plot_Dgene_usage_Joyce_Patient.R
+```
+  * Input file: result/Dgene\_Joyce\_Patient\_summary.tsv
+  * Output file:
+    * graph/HD39\_usage\_Joyce\_\*.png
+    * graph/HD39\_Joyce\_Patient\_usage.png
+
+2. To plot the D3-9 gene usage in other datasets
+```
+Rscript script/Plot_Dgene_usage_Andrews_SciImmun_Patient.R
+Rscript script/Plot_Dgene_usage_Andrews_STM_Patient.R
+Rscript script/Plot_Dgene_usage_Pappas.R
+Rscript script/Plot_Dgene_usage_DeKosky_Donor.R
+Rscript script/Plot_Dgene_usage_HIV.R
+```
+  * Input file: result/Dgene\_\*.tsv
+  * Output file: graph/HD39\_\*.png
+
+3. To plot the frequency of prevalence of 31.b.09-like (ILTG motif) and S9-3-37-like (LXYFWL motif) CDR H3 in different samples
+```
+Rscript script/Plot_Dgene_usage_OAS.R
+```
+  * Input file: result/Compare\_OAS.tsv
+  * Output file: graph/Compare\_OAS.png
