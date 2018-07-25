@@ -1,0 +1,36 @@
+chain	resi	Type
+HA1	8	FI6v3 only
+HA1	18	S9-3-37 only
+HA1	28	FI6v3 only
+HA1	29	FI6v3 only
+HA1	30	FI6v3 only
+HA1	38	S9-3-37 only
+HA1	39	S9-3-37 only
+HA1	40	S9-3-37 only
+HA1	287	FI6v3 only
+HA1	289	Both
+HA1	290	FI6v3 only
+HA1	291	S9-3-37 only
+HA1	292	S9-3-37 only
+HA1	316	FI6v3 only
+HA1	318	S9-3-37 only
+HA2	18	Both
+HA2	19	Both
+HA2	20	Both
+HA2	21	Both
+HA2	36	S9-3-37 only
+HA2	38	Both
+HA2	39	FI6v3 only
+HA2	41	Both
+HA2	42	Both
+HA2	43	FI6v3 only
+HA2	45	Both
+HA2	46	Both
+HA2	48	Both
+HA2	49	Both
+HA2	50	S9-3-37 only
+HA2	52	Both
+HA2	53	Both
+HA2	54	S9-3-37 only
+HA2	56	Both
+HA2	57	Both
