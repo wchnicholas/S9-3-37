@@ -1,5 +1,5 @@
 This README describes the sequence analysis for the S9-3-37 antibody study. The sequence analysis is divided into two parts. [Part I](https://github.com/wchnicholas/S9-3-37#part-i-analysis-for-ha-natural-variants) describes the analysis for influenza hemagglutinin (HA) natural variants. [Part II](https://github.com/wchnicholas/S9-3-37#part-ii-analysis-for-antibody-sequences) describes the analysis for antibody sequences. 
-## PART I: ANALYSIS FOR HA NATURAL VARIANTS
+## PART I: ANALYSIS OF HA NATURAL VARIANTS
 ### INPUT FILES
 * Fasta/HAdiffSubtypes.aln: HA protein sequences from representative strains of each subtype
 * Fasta/Natural\_All\_Subtypes.aln: HA protein sequences retrieved from [GISAID](https://www.gisaid.org/)
@@ -45,7 +45,7 @@ bash script/seqlogo_resi.sh
     * graph/Resi38\_H\*.png
     * graph/Resi50\_H\*.png
 
-## PART II: ANALYSIS FOR ANTIBODY SEQUENCES
+## PART II: ANALYSIS OF ANTIBODY SEQUENCES
 ### INPUT FILES
 * data/Subj1.tsv: From Table S3 in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
 * data/Subj16.tsv: From Table S3 in [Joyce et al. 2016](https://www.ncbi.nlm.nih.gov/pubmed/27453470)
