@@ -1,4 +1,7 @@
-This README describes the sequence analysis for the S9-3-37 antibody study. The sequence analysis is divided into two parts. [Part I](https://github.com/wchnicholas/S9-3-37#part-i-analysis-for-ha-natural-variants) describes the analysis for influenza hemagglutinin (HA) natural variants. [Part II](https://github.com/wchnicholas/S9-3-37#part-ii-analysis-for-antibody-sequences) describes the analysis for antibody sequences. 
+This README describes the scripts used for the sequence analysis in:   
+[Recurring and Adaptable Binding Motifs in Broadly Neutralizing Antibodies to Influenza Virus Are Encoded on the D3-9 Segment of the Ig Gene](https://www.cell.com/cell-host-microbe/fulltext/S1931-3128(18)30494-3)
+
+The sequence analysis is divided into two parts. [Part I](https://github.com/wchnicholas/S9-3-37#part-i-analysis-for-ha-natural-variants) describes the analysis for influenza hemagglutinin (HA) natural variants. [Part II](https://github.com/wchnicholas/S9-3-37#part-ii-analysis-for-antibody-sequences) describes the analysis for antibody sequences. 
 ## PART I: ANALYSIS OF HA NATURAL VARIANTS
 ### INPUT FILES
 * Fasta/HAdiffSubtypes.aln: HA protein sequences from representative strains of each subtype
